@@ -1,0 +1,20 @@
+{
+  "name": "highlevelbe",
+  "version": "1.0.0",
+  "description": "High Level BackEnd",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node --experimental-modules src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "pg": "^8.11.5",
+    "pg-promise": "^11.6.0"
+  },
+  "type": "module"
+}
